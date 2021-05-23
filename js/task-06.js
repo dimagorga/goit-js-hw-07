@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 const inputEl = document.querySelector('#validation-input');
 
 inputEl.addEventListener('input', onInutChange);
@@ -15,3 +16,4 @@ function onInutChange(event) {
         inputEl.classList.remove("invalid");
     }
 }
+})

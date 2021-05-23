@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 const images = [
     {
       url:
@@ -25,3 +26,4 @@ function createList(images) {
     })
     return gallery.join('');
 }
+})
